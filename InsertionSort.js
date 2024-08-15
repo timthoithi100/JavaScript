@@ -15,10 +15,8 @@ var insertionSort = function(array) {
 
 var array = [22, 11, 99, 88, 9, 7, 42];
 insertionSort(array);
-println("Array after sorting:  " + array);
-Program.assertEqual(array, [7, 9, 11, 22, 42, 88, 99]);
+console.log("Array after sorting:  " + array);
 
 var array1 = [2, -11, 0, 88, 9, 7, 42];
 insertionSort(array1);
-println("Array after sorting:  " + array1);
-Program.assertEqual(array1, [-11, 0, 2, 7, 9, 42, 88]);
+console.log("Array after sorting:  " + array1);
